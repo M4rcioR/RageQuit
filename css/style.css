@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/leyre-71SHXwBLp5w-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fontes{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.navbar-collapse{
+    background-color: #0000;
+}
+
+.navbar-nav>a{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.navbar-nav>a:hover{
+    height: 50px;
+    background-color: #f1c61b;
+    border-radius: 10px;
+    
+}
+
+.container{
+    margin-top: 15vh;
+    background-color: #fff;
+    color: black;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.live{
+    margin-top: 15vh;
+    background-color: #f1c61b;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textos>a{
+    text-decoration: none;
+    background-color: #f1c61b;
+}
+
+.icons{
+    margin-top: 2vh;
+    height: 100px;
+}
+
+.titles-live{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    margin-top: 10%;
+}
+
+.botao-live{
+    background-color: #320e2f;
+    width: 200px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.botao-live:hover{
+    background-color: #f1c61b;
+    width: 200px;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
