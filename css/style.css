@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
 
-body{
+
+body {
     margin: 0;
     padding: 0;
     background-image: url(../img/leyre-71SHXwBLp5w-unsplash.jpg);
@@ -8,102 +9,123 @@ body{
     background-size: cover;
 }
 
-.fontes{
+.fontes {
     font-family: 'Bebas Neue', cursive;
     font-size: 45px;
-}
-
-.navbar-toggler{
-    background-color: #fff;
-}
-
-.navbar-collapse{
-    background-color: #0000;
 }
 
 nav{
     background-color: #320e2f;
 }
 
-.navbar-nav>a{
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-collapse {
+    background-color: #0000;
+}
+
+
+
+.navbar-nav>a {
     background-color: #320e2f;
     color: #fff;
     font-size: 25px;
     font-family: 'Bebas Neue', cursive;
-    
+
 }
 
-.navbar-nav>a:hover{
+.navbar-nav>a:hover {
     height: 50px;
     background-color: #f1c61b;
     border-radius: 10px;
+
+}
+
+.container {
+    margin-top: 15vh;
+    color: #fff;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+}
+/* About */
+
+
+.about-rage{
+    background-color: #fff;
+    width: 100%;
+  
+
+}
+
+.about-subtitles{
+    color: #000;
+}
+
+.about-imagem img{
+    height: 150px;
+    border-radius: 100px;
     
 }
 
-.container{
-    margin-top: 15vh;
-    color: #fff;
-    width: 60%;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.live{
-    margin-top: 15vh;
-    background-color: #f1c61b;
-    color: black;
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.textos>a{
-    text-decoration: none;
-    background-color: #f1c61b;
-}
-
-.icons{
-    margin-top: 2vh;
-    height: 100px;
-}
-
-.titles-live{
+.about-title{
     font-family: 'Bebas Neue', cursive;
-    color: #fff;
-    margin-top: 10%;
+    color: #6e0d5d; 
 }
 
-.botao-live{
+li{
+    list-style: none;
+}
+
+.about-bnt{
+    margin-top: 5vh;
     background-color: #320e2f;
-    width: 200px;
     color: #fff;
-    font-family: 'Bebas Neue', cursive;
+    border-radius: 30px;
+
 }
 
-.botao-live:hover{
+.about-bnt:hover{
+    margin-top: 5vh;
     background-color: #f1c61b;
-    width: 200px;
     color: #fff;
+
+}
+
+
+
+/* Rage Member */
+
+.rage-team{
+    background-color: #fff;
+    width: 100%;
+  
+
+}
+
+.section-heading, h2, h4{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
     font-family: 'Bebas Neue', cursive;
+    color: #6e0d5d;
+
 }
 
-.votacao{
-    width: 60%;
-    margin-top: 10vh;
-    margin-left: auto;
-    margin-right: auto;
-   
+.social{
+    background-color: #320e2f;
+    color: #fff;
+    text-decoration: none;
+
 }
 
-.modal{
-    border-radius: 20px;
-    background-color: #f1c61b;
+
+.social:hover{
+    background-color: #6e0d5d;
+    color: #f1c61b;
+
 }
 
-.list-group{
-    margin-top: 3vh;
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-}
+
+
