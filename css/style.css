@@ -4,18 +4,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(../img/leyre-71SHXwBLp5w-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000;
+
 }
 
-.fontes {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 45px;
-}
-
-nav{
-    background-color: #320e2f;
+nav {
+    background-color: #46237A;
 }
 
 .navbar-toggler {
@@ -29,7 +23,7 @@ nav{
 
 
 .navbar-nav>a {
-    background-color: #320e2f;
+    background-color: #46237A;
     color: #fff;
     font-size: 25px;
     font-family: 'Bebas Neue', cursive;
@@ -45,52 +39,58 @@ nav{
 
 .container {
     margin-top: 15vh;
+    background-image: url(../img/4562472.jpg);
+    background-size: cover;
     color: #fff;
     width: 60%;
     border-radius: 20px;
     text-align: center;
 }
+
 /* About */
 
 
-.about-rage{
-    background-color: #fff;
-    width: 100%;
-  
 
-}
-
-.about-subtitles{
+.about-subtitles {
     color: #000;
 }
 
-.about-imagem img{
+.about-imagem img {
     height: 150px;
     border-radius: 100px;
-    
+
 }
 
-.about-title{
+.about-title {
     font-family: 'Bebas Neue', cursive;
-    color: #6e0d5d; 
+    color: #fff;
 }
 
-li{
+.about-subtitles{
+    color: #F1F0EA;
+}
+
+li {
     list-style: none;
 }
 
-.about-bnt{
-    margin-top: 5vh;
-    background-color: #320e2f;
-    color: #fff;
-    border-radius: 30px;
-
-}
-
-.about-bnt:hover{
+.about-bnt {
     margin-top: 5vh;
     background-color: #f1c61b;
     color: #fff;
+    border-radius: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+
+}
+
+.about-bnt:hover {
+    margin-top: 5vh;
+    background-color: #46237A;
+    color: #fff;
+    border-radius: 30px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
 
 }
 
@@ -98,34 +98,103 @@ li{
 
 /* Rage Member */
 
-.rage-team{
-    background-color: #fff;
-    width: 100%;
-  
-
-}
-
-.section-heading, h2, h4{
+.section-heading,
+h2,
+h4 {
     padding-top: 5vh;
     padding-bottom: 3vh;
     font-family: 'Bebas Neue', cursive;
-    color: #6e0d5d;
 
 }
 
-.social{
-    background-color: #320e2f;
+.social {
+    background-color: #f1c61b;
     color: #fff;
     text-decoration: none;
 
 }
 
 
-.social:hover{
-    background-color: #6e0d5d;
-    color: #f1c61b;
+.social:hover {
+    background-color: #46237A;
+    color: #fff;
 
 }
 
 
+/* Clips */
+
+.clips-rage {
+    background-color: #fff;
+    width: 100%;
+}
+
+iframe {
+    width: 140px;
+}
+
+.social-twitch {
+    background-color: #f1c61b;
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+
+}
+
+.social-twitch:hover {
+    background-color: #46237A;
+    color: #fff;
+    text-decoration: none;
+    width: 120px;
+
+}
+
+/* Footer */
+
+.social-footer{
+    background-color: #46237A;
+    color: #fff;
+}
+
+.social-footer:hover{
+    background-color: #f1c61b;
+    color: #fff;
+}
+.rage-footer {
+    margin-top: 15vh;
+    background-color: #46237A;
+    height: 150px;
+}
+
+/* História */
+
+.historia-title{
+    color: #000;
+}
+
+.historia-subtitle{
+    color: #000;
+}
+
+.historia-bnt{
+    background-color: #f1c61b;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    width: 120px;
+    font-size: 20px;
+}
+
+.historia-bnt:hover{
+    background-color: #46237A;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    width: 120px;
+    font-size: 20px;
+}
+
+/* Votacçaõ */
+.list-group{
+   color: #000;
+
+}
 
